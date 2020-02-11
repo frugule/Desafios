@@ -1,0 +1,140 @@
+body{
+  box-sizing: content-box;
+  width: 100%;
+}
+.ima{
+  width: 100%;
+}
+.conto {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#hp{
+  font-size: 10vw;
+}
+#dit{
+  background-color: #000000;
+  text-align: center;
+  padding: 1px;
+}
+#hc{
+  font-size: 2.1vw;
+  text-align: center;
+}
+#hc{
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1;
+  -webkit-column-width: 200px;
+     -moz-column-width: 200px;
+          column-width: 200px;
+  font-size: 1.5rem;
+}
+#art {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 200px;
+     -moz-column-width: 200px;
+          column-width: 200px;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 993px) {
+  #arte, #art, #carves {
+    display: none;
+  }
+}
+#ic{
+  font-size: 13rem;
+}
+#ices{
+  width: 370px;
+}
+#ict{
+  font-size: 1.3rem;
+  font-weight: normal;
+  text-align: center;
+  color: #000;
+}
+.gap{
+  color: #0081c1;
+}
+.gax{
+  color: #ab0000;
+}
+.gar{
+  color: #bb8803;
+}
+.tra{
+  background-color: #e6d7bd;
+}
+.gg{
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+.fih{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#bla{
+  color: #fff;
+  text-decoration: none;
+}
+#sta{
+  font-size: 2.5rem;
+  color: #3dad00;
+}
+#ko{
+  background-color: #e6d7bd !important;
+}
+#kp{
+  color: #fff;
+  font-size: 1.5rem;
+}
+#icc{
+  font-size: 5rem;
+}
+/*sacado de:https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_image2*/
+.flip-box {
+  background-color: transparent;
+  width: 350px;
+  height: 600px;
+  perspective: 1000px;
+  backface-visibility: hidden;
+}
+
+.flip-box-inner {
+  position: relative;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+
+
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-back {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+

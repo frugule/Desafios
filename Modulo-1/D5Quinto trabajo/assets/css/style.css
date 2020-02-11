@@ -1,0 +1,109 @@
+#tea{
+  background-color: #373A3C;
+}
+
+#tei{
+  font-family: 'Lobster', cursive;
+}
+#tuti{
+  color: #373A3C;
+  font-family: 'Cabin', sans-serif;
+  font-size: 35px;
+
+}
+#tan, #tut{
+  background-color: #373A3C;
+  color: #373A3C;
+
+}
+#tutu{
+  font-size: 20px;
+}
+@media only screen and (max-width: 991px) {
+    .col-sm-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      }
+    #tutu {
+        width: 100vw;
+      }
+    #tata{
+        text-align: center;
+      }
+    #data {
+      text-align: center;
+      justify-content: center;
+      }
+    #jaj{
+      display:none !important;
+      }
+    #parp{
+      font-size: 2vw;
+      }
+    #juju{
+      justify-content: center;
+      text-align: center;
+      }
+    #nada{
+      height: 0 !important;
+    }
+    #gg{
+      display: inline-grid;
+      justify-content: center;
+    }
+    .hah{
+      text-align: center;
+    }
+    #cardk{
+      display: block !important;
+    }
+    #carves{
+      display: none;
+    }
+}
+#serp{
+  background-color: darkblue;
+}
+#rara{
+  padding-bottom: 8px;
+  border-bottom: 2px solid #000000;
+}
+#sus{
+  color: #ffffff;
+  padding: 200px;
+  background-color: #DC3545;
+  width: 100%;
+}
+.rtn{
+  background-color: #DC3545;
+  color: #ffffff;
+  padding: 10px 90px 10px 90px;
+}
+.fata{
+  background-color: #373A3C;
+  color:#ffffff;
+  padding: 50px;
+  font-size: 35px;
+}
+#parp{
+  font-size: 2vw;
+}
+#nada{
+  height: 48px;
+}
+.imar{
+  width: 17rem;
+  padding: 1rem;
+}
+#garg {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-width: 400px;
+  -moz-column-width: 400px;
+  column-width: 400px;
+  font-size: 1.5rem;
+}
+.hah{
+  font-size: 2rem;
+}

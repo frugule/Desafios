@@ -1,0 +1,136 @@
+body{
+  background-color: #000000;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #1E1A13;
+}
+h1{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.img1{
+  background-color: #000000;
+}
+.im1{
+  background-color: #000000;
+  width: 100%;
+}
+.maincont{
+  width: 100%;
+}
+.title1{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: normal;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.contf{
+  text-align: center;
+  background-color: #000000;
+}
+.textc{
+  background-color: #000000;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.text{
+  margin: 0 0 75px 0;
+  color: #ffffff;
+  display: inline-block;
+  height: 197px;
+  padding: 76px 106px 75px 150px;
+  text-align: left;
+  width: 475px;
+  font-weight: lighter;
+  letter-spacing: 0;
+}
+.img2{
+  display: inline-block;
+  height: 237px;
+}
+.h2{
+  padding: 75px 0 0 0;
+  background-color: #1E1A13;
+  color: #ffffff;
+  text-align: center;
+}
+.text1{
+  font-weight: medium;
+  text-align: center;
+}
+
+.iconc1{
+  display: inline-block;
+  background-color: #1E1A13;
+  text-align: center;
+  padding: 90px 0 170px 0;
+  fill: #1E1A13;
+}
+.icon1{
+  background-color: #1E1A13;
+  font-size: 45px;
+  color: #ffffff;
+  display: inline-block;
+  fill:  #1E1A13;
+  padding: 0 200px 0 0;
+}
+.icon2{
+  background-color: #1E1A13;
+  font-size: 45px;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0 150px 0 0px;
+  fill:  #1E1A13;
+
+  text-align: center;
+  }
+  .icon3{
+  font-size: 45px;
+  background-color: #1E1A13;
+  color: #ffffff;
+  display: inline-block;
+  fill:  #1E1A13;
+
+}
+
+.imgc{
+  text-align: center;
+  background-color: #000000;
+}
+.imgc1{
+  background-color: #000000;
+  display: inline-block;
+}
+.img3, .img4, .img5{
+  height: 202px;
+  padding: 73px 16px 73px 16px;
+  width: 361px;
+}
+.p{
+  margin: 0;
+  vertical-align: middle;
+}
+footer{
+  vertical-align: middle;
+  height: 102px;
+  background: #1E1A13;
+  color: #ffffff;
+  text-align: center;
+}
+h3{
+  background-color: #1E1A13;
+  font-weight: lighter;
+  padding: 10px 0 0 0;
+  margin: 0;
+  opacity: 1;
+}

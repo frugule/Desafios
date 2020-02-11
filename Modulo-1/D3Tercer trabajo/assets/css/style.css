@@ -1,0 +1,29 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+#ja{
+  background-color: #e83e8c;
+}
+.nav-link:hover, .cardlink:hover{
+  color: #ffffff;
+}
+.btn{
+  color:#006cff;
+}
+.btn:hover{
+  color: #00f3ff;
+}
+.container{
+  background-color: #17a2b8;
+}
+h2{
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: bold;
+}
+footer{
+  background-color: #e83e8c;
+}
+.img1{
+  height: 200px;
+}
